@@ -66,7 +66,7 @@ hr {
   color: #6f6f6f;
 }
 #content .container .img-portrait {
-  padding: 40px 0;
+  margin-top: 40px;
   border-radius: 50%;
 }
 #content .container span {
@@ -81,6 +81,7 @@ hr {
 }
 #content .skills {
   text-align: center;
+  padding: 20px 0;
   background-color: #e2e2e2;
 }
 #content .skills h3 {
@@ -118,6 +119,7 @@ hr {
   padding: 0;
 }
 #footer {
+  padding: 20px 0;
   background-color: #e2e2e2;
 }
 #footer .container {
@@ -139,7 +141,11 @@ hr {
 }
 #footer .container p {
   padding: 15px;
+  color: #6f6f6f;
 }
 .h3-light {
   padding: 10px 0;
+}
+section {
+  padding: 50px 0;
 }
