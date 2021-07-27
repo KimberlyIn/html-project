@@ -143,11 +143,64 @@ hr {
   }
 }
 
+.other-works {
+  .container {
+    text-align: center;
+    p {
+      width: 300px;
+      margin: 15px auto;
+    }
+    ul {
+      display: flex;
+      // width: 950px;
+      margin: 0 auto;
+      flex-direction: row;
+      flex-wrap: wrap;
+      li {
+        padding: 0 5px;
+        flex-grow: 1;
+      }
+      .item2 {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 40%;
+      }
+    }
+  }
+}
+
+.footer {
+  background-color: #44584f;
+  .container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+    h2 {
+      color: white;
+    }
+    li {
+      margin: 15px 0;
+    }
+  }
+}
+
 .container {
   h2 {
     font-weight: 800;
     font-style: italic;
     padding: 15px 0;
+  }
+  ul {
+    li {
+      a {
+        color: white;
+        transition: 0.5s linear all;
+        &:hover {
+          color: rgb(194, 223, 162);
+        }
+      }
+    }
   }
 }
 

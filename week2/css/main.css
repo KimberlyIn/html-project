@@ -131,8 +131,52 @@ hr {
 .brand .container ul .col-6 {
   float: left;
 }
+.other-works .container {
+  text-align: center;
+}
+.other-works .container p {
+  width: 300px;
+  margin: 15px auto;
+}
+.other-works .container ul {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.other-works .container ul li {
+  padding: 0 5px;
+  flex-grow: 1;
+}
+.other-works .container ul .item2 {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 40%;
+}
+.footer {
+  background-color: #44584f;
+}
+.footer .container {
+  width: 300px;
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+}
+.footer .container h2 {
+  color: white;
+}
+.footer .container li {
+  margin: 15px 0;
+}
 .container h2 {
   font-weight: 800;
   font-style: italic;
   padding: 15px 0;
+}
+.container ul li a {
+  color: white;
+  transition: 0.5s linear all;
+}
+.container ul li a:hover {
+  color: #c2dfa2;
 }
