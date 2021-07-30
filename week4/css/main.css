@@ -1,0 +1,186 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.clearfix:after,
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container {
+  display: block;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+.col-4,
+.col-6,
+.col-12 {
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+h1 {
+  font-size: 4em;
+}
+p {
+  margin: 0;
+}
+hr {
+  margin: 0;
+}
+#header {
+  height: 958px;
+  background-image: url(https://images.unsplash.com/photo-1466781783364-36c955e42a7f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+#header .title {
+  width: 300px;
+  margin: 0 auto;
+  padding-top: 400px;
+  text-align: center;
+}
+#header .title .fine-print {
+  text-align: left;
+  padding-left: 30px;
+}
+#header .title h1 {
+  letter-spacing: 10px;
+  font-weight: 800;
+  font-style: italic;
+}
+#header .title .desc {
+  padding: 15px 0;
+}
+#header .title ul li {
+  float: left;
+  padding: 10px 5px;
+}
+#header .title ul li img {
+  border-radius: 25%;
+}
+.about .container {
+  width: 384px;
+  text-align: center;
+}
+.about .container ul {
+  padding: 15px 0;
+}
+.about .container ul h4 {
+  padding: 5px 0;
+  font-weight: 700;
+  font-style: italic;
+}
+.about .container ul p {
+  font-style: italic;
+}
+.about .container ul li {
+  padding: 10px 0;
+}
+.about .container ul hr {
+  margin: 10px 0;
+}
+.about .container ul .material-icons {
+  font-size: 20px;
+  padding-right: 5px;
+}
+.brand {
+  height: 1300px;
+  background-color: #44584f;
+}
+.brand .container {
+  text-align: center;
+}
+.brand .container h2 {
+  color: white;
+}
+.brand .container p {
+  width: 300px;
+  margin: 0 auto;
+  padding: 15px 0;
+  color: white;
+}
+.brand .container ul .col-12 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.brand .container ul .col-6 {
+  float: left;
+}
+.other-works .container {
+  text-align: center;
+}
+.other-works .container p {
+  width: 300px;
+  margin: 15px auto;
+}
+.other-works .container ul {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.other-works .container ul li {
+  padding: 0 5px;
+  flex-grow: 1;
+}
+.other-works .container ul .item2 {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 40%;
+}
+.footer {
+  background-color: #44584f;
+}
+.footer .container {
+  width: 300px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.footer .container h2 {
+  color: white;
+}
+.footer .container li {
+  margin: 15px 0;
+}
+.container h2 {
+  font-weight: 800;
+  font-style: italic;
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+.container ul li a {
+  color: white;
+  transition: 0.5s linear all;
+}
+.container ul li a:hover {
+  color: #c2dfa2;
+}
