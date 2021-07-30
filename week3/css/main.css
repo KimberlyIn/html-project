@@ -114,5 +114,41 @@ hr {
   color: #4e4e4e;
 }
 .explain .container {
-  padding: 100px 0;
+  padding: 50px 0;
+}
+.explain .container h2 {
+  text-align: center;
+}
+.explain .container ul {
+  text-align: center;
+  padding: 90px 0;
+}
+.explain .container li {
+  float: left;
+  width: 25%;
+  padding: 0 30px;
+}
+.explain .container li i {
+  font-size: 90px;
+  color: #4e4e4e;
+}
+.explain .container li h6 {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px 0;
+}
+.content .ad {
+  background-color: #f2f2f2;
+}
+.container h2 {
+  font-size: 50px;
+}
+.container h6 {
+  color: #4e4e4e;
+}
+.container i {
+  color: #4e4e4e;
+}
+.container p {
+  color: #4e4e4e;
 }
