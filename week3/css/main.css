@@ -140,6 +140,16 @@ hr {
 .content .ad {
   background-color: #f2f2f2;
 }
+.content .ad .title {
+  text-align: center;
+}
+.content .ad li {
+  float: left;
+}
+.content .ad .item {
+  width: 40%;
+  height: 320px;
+}
 .container h2 {
   font-size: 50px;
 }
